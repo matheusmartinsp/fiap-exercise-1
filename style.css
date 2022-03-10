@@ -1,0 +1,262 @@
+body {
+  background: rgb(0,0,0);
+  background: linear-gradient(180deg, #000, #212121);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+section {
+  padding: 50px 0; 
+  margin: 0 auto;
+}
+
+
+.container {
+  padding: 0 24px;
+  margin: 0 auto;
+  max-width: 1280px;  
+}
+
+img {
+  max-width: 100%;
+}
+
+.controller-reverse {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.logo-fiap {
+  max-width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.img-profile {
+  max-width: 300px;
+  border-radius: 50%;
+  border: 3px solid #A028C7;
+  box-shadow: 10px 10px 5px rgba(255, 255, 255, 0.268);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto 0 auto;
+}
+
+.ilustra {
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: 26px;
+  line-height: 1.4;
+  font-family: 'Montserrat';
+}
+
+h2 {
+  font-size: 24px;
+  line-height: 1.4;
+  font-family: 'Montserrat';
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.4;
+  font-family: 'Montserrat';
+}
+
+span {
+  font-family: 'Montserrat';
+}
+
+
+#navbar {
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, #41295a, #2F0743);
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+}
+
+#home {
+  padding-top: 120px;
+}
+
+.ul-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  margin: 0 auto;
+}
+
+.nav-items {
+  padding: 2px 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.text-navbar {
+  color: #FFF;
+  text-align: center;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.title {
+  color: #a028c7;
+  font-weight: 800;
+  text-align: center;
+}
+
+.subtitle {
+  color: #fff;
+  font-weight: 500;
+  text-align: center;
+}
+
+.description {
+  color: #FFF;
+  text-align: justify;
+  margin-top: 2rem;
+}
+
+.profile-description {
+  margin-top: 3rem;
+}
+
+.skills-items {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+}
+
+.skills-item {
+  padding: 2px 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 20px auto;
+}
+
+.skills-icon {
+  max-width: 50px;
+}
+
+.skills-text {
+  color: #FFF;
+  font-weight: bold;
+  text-align: center;
+  margin: 10px;
+}
+
+footer {
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, #41295a, #2F0743);
+  padding: 10px 0;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.social-icons {
+  max-width: 50px;
+}
+
+.social-li {
+  margin: 2px 10px;
+}
+
+.footer-description {
+  text-align: center;
+  color: #FFF;
+  font-weight: bold;
+  margin: 15px;
+}
+
+.contact-info {
+  display: flex;
+}
+
+.contact-icon {
+  max-width: 50px;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  align-items: center;
+}
+
+.contact-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.contact-text {
+  font-weight: bold;
+  color: #FFF;
+  margin-left: 20px;
+}
+
+@media only screen and (min-width: 1280px){
+  .container {
+    width: 100%;
+    padding: 0 64px;
+    margin: 0 auto;
+    max-width: 1280px;
+  }
+
+  .controller {
+    display: flex;
+  }
+
+  .controller-between {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .column {
+    margin: 10px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ilustra {
+    max-width: 400px;
+  }
+
+  .skills-item {
+    padding: 2px 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px auto;
+  }
+
+  .skills-items {
+    flex-direction: row;
+  }
+
+  .controller-reverse {
+    display: flex;
+    flex-direction: row;
+  }
+}
